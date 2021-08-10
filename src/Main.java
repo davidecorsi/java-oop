@@ -7,6 +7,10 @@ public class Main {
 		s.getMatricola();
 		p1.getNome();
 //		p1.getMatricola();
+		if (p1 instanceof Studente) {
+			Studente s1 = (Studente) p1; // cast
+			System.out.println(s1.getMatricola());
+		}
 		System.out.println(p);
 		System.out.println(s);
 		System.out.println(p1);
